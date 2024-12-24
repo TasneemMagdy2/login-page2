@@ -1,0 +1,32 @@
+:root{
+    --main-color: #24353F;
+    --second-color: #17A2B8
+}
+.bg-main{
+    background-color: var(--main-color);
+}
+.bg-secondary{
+    background-color: var(--second-color);
+}
+.text-second{
+    color: var(--second-color);
+}
+
+input{
+    background-color: transparent !important;
+}
+input::placeholder{
+    color: gray !important;
+}
+input:focus{
+    box-shadow: none !important;
+}
+
+.btn{
+  --bs-btn-color: var(--second-color);
+  --bs-btn-bg: transparent !important;
+  --bs-btn-border-color: var(--second-color);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg:var(--second-color);
+  --bs-btn-hover-border-color: var(--second-color);
+}
